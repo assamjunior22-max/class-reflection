@@ -1,0 +1,180 @@
+// generated from public/form_def.json by sync-form.mjs
+export default {
+ "title": "End-of-Year Class Reflection 2026",
+ "school": "The Rophine Field Group of Schools, Kamulu Campus",
+ "streams": {
+  "4": [
+   "Orchid",
+   "Magenta",
+   "Cameo",
+   "Amaranth"
+  ],
+  "5": [
+   "Orchid",
+   "Magenta",
+   "Cameo"
+  ],
+  "6": [
+   "Orchid",
+   "Magenta",
+   "Cameo"
+  ],
+  "7": [
+   "Orchid",
+   "Magenta",
+   "Cameo"
+  ],
+  "8": [
+   "Orchid",
+   "Magenta"
+  ],
+  "9": [
+   "Orchid",
+   "Magenta"
+  ]
+ },
+ "partA": [
+  "Subject(s) taught to this class",
+  "Learners on roll (start of year)",
+  "Learners on roll (end of year)",
+  "Learners present at the session",
+  "Date of session"
+ ],
+ "partB": [
+  "Average class attendance this year (%)",
+  "Learners present the whole year (never absent)",
+  "Learners present the whole of Term 3",
+  "Learners absent 10 or more days this year",
+  "Learners who were frequently late",
+  "Learners who represented the school (sports, music, drama, clubs, competitions)",
+  "Awards or recognitions won by the class or learners",
+  "Discipline cases referred to management (total, no names)",
+  "Learners who received guidance and counselling support (number only)",
+  "Learners who needed extra learning support"
+ ],
+ "partC_intro": "Hold one reflection session with the class using the version for your age group. Every version covers the same nine themes: discipline; culture; interactions; respect (teachers, ourselves, classmates, non-teaching staff); what we enjoyed; challenges; areas of improvement; what learners can do differently; what teachers can do differently. Talk about behaviour and ideas, not names. Ask each question below, then record what learners said and roughly how many shared that view.",
+ "bands": {
+  "C1": {
+   "grades": [
+    4,
+    5
+   ],
+   "title": "C1. Grades 4 and 5 (Lower Upper Primary): Draw, Talk, Stick",
+   "tip": "Use simple language, drawings and sticky notes. Keep each question short and read it aloud. Activity idea: draw a big tree on the board. Learners stick leaves (what helped me grow), fruits (what I achieved) and roots (people who supported me). Add a wish star for one thing we can do better.",
+   "questions": [
+    "My best memory this year (draw it or write one sentence).",
+    "Something I learned or did that I am proud of.",
+    "Our class rules: which were easy for me to follow, and which were hard?",
+    "Showing respect: how do we show respect to our teachers, our friends, the school helpers (cooks, cleaners, drivers, security guards) and ourselves? Did I always do it?",
+    "Our class family: was our class a kind and happy place? How did we treat each other when we disagreed?",
+    "Something that was hard for me, and who or what helped me.",
+    "My favourite lesson or activity, and why.",
+    "One thing I will do better as a learner next year.",
+    "One thing I want my teachers to keep doing, and one thing I wish they would change.",
+    "A kind word I want to say to a classmate, a teacher or a school helper.",
+    "Advice we would give next year's class."
+   ]
+  },
+  "C2": {
+   "grades": [
+    6
+   ],
+   "title": "C2. Grade 6: Smile, Neutral, Frown",
+   "tip": "Give each learner a smile, neutral and frown card. Read each question, let learners show a card, then ask a few to explain why. Activity idea: Rose, Thorn, Bud. Each learner shares a rose (something good), a thorn (a challenge) and a bud (something we can grow or improve).",
+   "questions": [
+    "What did we do well as a class this year? What made our class special?",
+    "Which subjects, lessons and activities did I enjoy most, and which were most difficult?",
+    "Discipline: did we follow class and school rules? What helped us behave well, and what made it difficult? Were consequences fair?",
+    "Respect: how did we treat our teachers, our classmates, school staff and ourselves? Give examples of respect and of disrespect that we saw.",
+    "Interactions: did I feel safe, respected and listened to? How did we handle teasing, name-calling and quarrels?",
+    "How did I feel about homework, tests and projects?",
+    "What made me proud of myself this year?",
+    "What can we, as learners, do differently to make our class better?",
+    "What can our teachers do differently, and what should they keep doing?",
+    "What advice would I give next year's Grade 6 learners?"
+   ]
+  },
+  "C3": {
+   "grades": [
+    7,
+    8,
+    9
+   ],
+   "title": "C3. Grades 7, 8 and 9 (Junior School): Structured Discussion",
+   "tip": "Let learners discuss in small groups first, then report back. Use anonymous slips for sensitive points. Activity idea: Stop, Start, Continue. Use two charts, one for learners and one for teachers, and record the answers in the matching rows below.",
+   "questions": [
+    "Discipline: how would I describe discipline in our class and school this year? Were rules clear, fair and consistently applied? What led to indiscipline (peer pressure, lateness, gadgets, bullying, boredom)?",
+    "Culture: what values and habits define our class and school? Which should we protect and which should we change?",
+    "Interactions: how were relationships between learners, between learners and teachers, and between learners and other staff? How did we handle conflict, and how did we behave online?",
+    "Respect: how did we show respect to teachers, classmates, non-teaching staff, school property and ourselves (time, honesty, health, effort)? Where did we fall short?",
+    "Which subjects and teaching methods helped me learn best (group work, practicals, projects, technology, discussion, notes)?",
+    "How well did the school support me (guidance and counselling, library, labs, ICT, sports, clubs)?",
+    "What were the biggest challenges (academic, social, emotional, time management, resources)? How were they handled, and by whom?",
+    "Areas of improvement: what three things should our class and school improve most?",
+    "What should learners stop, start and continue doing?",
+    "What should teachers stop, start and continue doing (teaching methods, feedback, fairness, listening, approachability, handling discipline)?",
+    "What was my greatest personal achievement and my biggest lesson this year?",
+    "Advice we would give next year's class."
+   ]
+  }
+ },
+ "scale_note": "1 = Strongly disagree, 2 = Disagree, 3 = Agree, 4 = Strongly agree. Younger learners can use faces or thumbs; record counts the same way.",
+ "partD": [
+  "Enjoyment: I enjoyed coming to school this year.",
+  "Learning: I understood most of what was taught, and my teachers explained clearly.",
+  "Learning: I received feedback that helped me improve.",
+  "Discipline: Rules are clear and were applied fairly to everyone.",
+  "Discipline: I followed the rules most of the time.",
+  "Culture: Our class had a spirit of teamwork and kindness.",
+  "Interactions: I felt safe and respected in class, free from bullying and teasing.",
+  "Interactions: I know a teacher or adult at school I can go to for help.",
+  "Respect: Learners and teachers showed respect to each other.",
+  "Respect: We showed respect to non-teaching staff (cooks, cleaners, drivers, security)."
+ ],
+ "partE_note": "Use what learners said in Part C. Do not record marks or individual results.",
+ "partE": [
+  "Subjects and lessons learners enjoyed most, and the ones they found difficult",
+  "Teaching and learning strategies learners enjoyed and that helped them learn best",
+  "What teachers should improve on (methods, feedback, pace, homework load, assessment)",
+  "What learners should improve on (study habits, time management, participation)"
+ ],
+ "partF": [
+  "What am I most proud of in my work with this class?",
+  "What would I do differently if I taught this class again?",
+  "What professional development or support do I need next year?"
+ ],
+ "partG_note": "1 = Needs urgent improvement, 2 = Needs improvement, 3 = Good, 4 = Excellent. Give a comment for any 1 or 4.",
+ "partG": [
+  "Teaching, learning and assessment",
+  "Discipline and character formation",
+  "Guidance, counselling, safety and well-being",
+  "Facilities and resources (library, labs, ICT, classrooms)",
+  "Co-curricular programme",
+  "Parent communication and involvement",
+  "Staff teamwork, management support and professional development",
+  "School services (feeding, transport)"
+ ],
+ "H1_cols": [
+  "Strength",
+  "Why it matters",
+  "How we keep it going"
+ ],
+ "H2_cols": [
+  "Area for improvement",
+  "Evidence",
+  "Suggested solution",
+  "Priority",
+  "Resources needed"
+ ],
+ "declaration": "I confirm this reflection was carried out with my class and the information given is accurate and honest. Choose Yes to submit.",
+ "instructions": {
+  "Purpose": "Each class reflects on the term and year with its teacher. The results show the school's strengths and areas for improvement. Management reviews every submission and adjusts plans for 2027.",
+  "How it works": "There is one tab for every stream (Grade 4: Orchid, Magenta, Cameo, Amaranth; Grades 5, 6 and 7: Orchid, Magenta, Cameo; Grades 8 and 9: Orchid, Magenta). The class teacher of that stream fills in only their own tab. Management reads the Summary tab and opens any class tab.",
+  "Filling in": "Type only in the YELLOW cells. Grey and green cells are fixed. Do not rename, move or delete tabs or rows. Do not type on the Summary tab: it fills in automatically.",
+  "The 1-hour class meeting": "5 min welcome and ground rules; 35 min Part C questions; 10 min Part D rating; 10 min wrap-up with a class thank-you. Complete Parts A and B from your records before the meeting, and Parts E to I after it (about 25 minutes).",
+  "Submitting": "When finished, go to Part I at the bottom of your tab and choose Yes in the declaration cell. The Summary tab then shows your stream as Submitted.",
+  "Confidentiality": "Do not name learners. Talk about behaviour and ideas, not individuals. Do not record marks or individual results.",
+  "Example of a good entry (do not copy)": "Part C question: \"Our class rules: which were easy for me to follow, and which were hard?\" Response: \"Most said arriving on time and keeping quiet in class were easy; handing in homework on time was hardest.\" Learners who shared this view: 18. Part D example: for \"I felt safe and respected in class\", enter the number of learners for each rating, such as 0, 2, 12, 16.",
+  "Colour guide": "Yellow = your input. Light green = labels. Grey = fixed or calculated. Dark green = section headers."
+ }
+};
