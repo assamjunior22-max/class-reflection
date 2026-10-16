@@ -101,7 +101,37 @@ form.inline{display:inline}
   .printhead{display:block!important}
   @page{margin:14mm}
 }
-.printhead{display:none;border-bottom:4px solid #e6127d;margin-bottom:10px;padding-bottom:6px}
+.printhead{border-bottom:4px solid #e6127d;margin-bottom:10px;padding-bottom:6px}
 .printhead h1{margin:0;font-size:22px}
 @media(max-width:760px){.fgrid{grid-template-columns:1fr}.topbar nav{margin-left:0}.qtab td.q{width:auto}}
 .qtab input[type=number]{max-width:110px}
+
+/* ---------- logo, narrative forms (Creche to Grade 3) ---------- */
+.logobadge{background:#fff;border-radius:10px;padding:3px 6px;display:inline-flex;align-items:center}
+.logo{height:46px;width:auto;display:block}
+.loginlogo{text-align:center;margin-bottom:10px}.loginlogo .logo{height:110px;margin:0 auto}
+.tablewrap{overflow-x:auto}
+.nhead{border-top:6px solid var(--pink);border-bottom:6px solid var(--navy)}
+.nheadrow{display:flex;gap:20px;align-items:center}.nheadrow .logo{height:92px}
+.org{font-size:15px;color:var(--navy);font-weight:bold;letter-spacing:.3px}
+.ftitle{font-size:24px;color:var(--navy);font-weight:bold;margin:2px 0}
+.fterm{display:inline-block;background:var(--pink);color:#fff;font-weight:bold;padding:3px 12px;border-radius:4px;font-size:14px;margin-top:2px}
+.secnav{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0;display:flex;gap:6px;flex-wrap:wrap}
+.secnav a{position:relative;min-width:38px;text-align:center;background:#fff;color:var(--navy);border:1px solid var(--pink);border-radius:6px;padding:6px 10px;text-decoration:none;font-size:14px}
+.secnav a:hover{background:var(--pink);color:#fff}
+.secnav a .dot,.tabs button .dot{position:absolute;top:3px;right:4px;width:8px;height:8px;border-radius:50%;background:#cbd0dc}
+.secnav a.done .dot{background:var(--ok)}
+.nsec{scroll-margin-top:60px}
+.nsec h2{display:flex;align-items:center;gap:12px;border-bottom:2px solid var(--pink);margin-top:0}
+.secnum{background:var(--navy);color:#fff;border-radius:6px;min-width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;font-size:16px;padding:0 8px}
+.ntab td.q{background:#eef0f8;font-weight:bold;color:var(--navy);width:34%}
+.ntab td.num,.ntab th.num{width:54px}
+.report h2 .secnum{background:var(--navy);color:#fff;border-radius:5px;min-width:26px;height:26px;display:inline-flex;align-items:center;justify-content:center;font-size:14px;margin-right:8px;padding:0 6px}
+.report h4.nsub{color:var(--pink);margin:14px 0 4px;font-size:15px}
+.rephead{display:flex;align-items:center;gap:18px;border-bottom:4px solid var(--pink);padding-bottom:8px}.rephead .logo{height:84px}
+.framed{border:3px solid var(--pink);border-radius:6px;padding:18px 22px;background:#fff}
+.kv th{width:34%;text-align:left}
+.printhead .logo{height:60px}
+.printhead{display:none;align-items:center;gap:14px}
+@media print{.printhead{display:flex!important}.framed{border:3px solid #e6127d;border-radius:0}.logo{-webkit-print-color-adjust:exact;print-color-adjust:exact}.secnum{background:#0b1f4b!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}.rephead{border-bottom:4px solid #e6127d}}
+@media(max-width:760px){.nheadrow{flex-direction:column;text-align:center}.ftitle{font-size:19px}.logo{height:38px}}

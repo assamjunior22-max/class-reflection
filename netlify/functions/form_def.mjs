@@ -176,5 +176,343 @@ export default {
   "Confidentiality": "Do not name learners. Talk about behaviour and ideas, not individuals. Do not record marks or individual results.",
   "Example of a good entry (do not copy)": "Part C question: \"Our class rules: which were easy for me to follow, and which were hard?\" Response: \"Most said arriving on time and keeping quiet in class were easy; handing in homework on time was hardest.\" Learners who shared this view: 18. Part D example: for \"I felt safe and respected in class\", enter the number of learners for each rating, such as 0, 2, 12, 16.",
   "Colour guide": "Yellow = your input. Light green = labels. Grey = fixed or calculated. Dark green = section headers."
+ },
+ "forms": {
+  "kg": {
+   "head": [
+    "THE ROPHINE FIELD GROUP OF SCHOOLS – KAMULU CAMPUS",
+    "KINDERGARTEN CLASS REFLECTION REPORT",
+    "END OF TERM 3, 2026"
+   ],
+   "general": [
+    "Class",
+    "Stream",
+    "Class Teacher",
+    "Roll"
+   ],
+   "sections": [
+    {
+     "num": 2,
+     "title": "ACADEMIC PROGRESS",
+     "intro": "",
+     "kind": "rows",
+     "cols": [
+      "Area of Reflection",
+      "Teacher's Comments"
+     ],
+     "rows": [
+      "Key academic achievements",
+      "Learning areas of strength",
+      "Learning areas requiring improvement",
+      "Learners requiring additional support",
+      "Interventions provided and their outcomes"
+     ]
+    },
+    {
+     "num": 3,
+     "title": "SOCIAL, EMOTIONAL AND BEHAVIOURAL DEVELOPMENT",
+     "intro": "",
+     "kind": "rows",
+     "cols": [
+      "Area of Reflection",
+      "Teacher's Comments"
+     ],
+     "rows": [
+      "Learners' behavior and discipline",
+      "Confidence and independence",
+      "Social skills and teamwork",
+      "Challenges experienced and strategies used"
+     ]
+    },
+    {
+     "num": 4,
+     "title": "CO-CURRICULAR ACTIVITIES AND SCHOOL PROGRAMMES",
+     "intro": "",
+     "kind": "rows",
+     "cols": [
+      "Area of Reflection",
+      "Teacher's Comments"
+     ],
+     "rows": [
+      "Activities and programmes undertaken",
+      "Learner participation and achievements",
+      "What worked well",
+      "Areas for improvement"
+     ]
+    },
+    {
+     "num": 5,
+     "title": "PARENTAL ENGAGEMENT",
+     "intro": "",
+     "kind": "rows",
+     "cols": [
+      "Area of Reflection",
+      "Teacher's Comments"
+     ],
+     "rows": [
+      "Parent involvement and communication",
+      "Parents' feedback or concerns and how they were addressed",
+      "Recommendations for improved collaboration"
+     ]
+    },
+    {
+     "num": 7,
+     "title": "CHALLENGES EXPERIENCED",
+     "intro": "",
+     "kind": "list",
+     "cols": [
+      "Challenge Identified",
+      "Action Taken / Proposed Solution"
+     ],
+     "rows": [
+      "1",
+      "2",
+      "3"
+     ]
+    },
+    {
+     "num": 8,
+     "title": "REFLECTION ON TEACHING AND LEARNING",
+     "intro": "",
+     "kind": "rows",
+     "cols": [
+      "Area of Reflection",
+      "Teacher's Comments"
+     ],
+     "rows": [
+      "Teaching strategies that worked well",
+      "Strategies that need improvement",
+      "Support or resources required",
+      "Lessons learnt during the term"
+     ]
+    },
+    {
+     "num": 9,
+     "title": "LEARNER TRANSITION AND READINESS",
+     "intro": "For PP2, reflect on readiness for Grade 1. For Crèche and PP1, reflect on readiness for the next class.",
+     "kind": "rows",
+     "cols": [
+      "Area of Reflection",
+      "Teacher's Comments"
+     ],
+     "rows": [
+      "Skills and competencies acquired",
+      "Areas requiring further reinforcement",
+      "Learners requiring additional transition support"
+     ]
+    },
+    {
+     "num": 10,
+     "title": "PRIORITIES FOR THE NEXT TERM",
+     "intro": "",
+     "kind": "list",
+     "cols": [
+      "Priority Area",
+      "Planned Action"
+     ],
+     "rows": [
+      "1",
+      "2",
+      "3"
+     ]
+    },
+    {
+     "num": 11,
+     "title": "OVERALL CLASS REFLECTION",
+     "intro": "",
+     "kind": "rows",
+     "cols": [
+      "Area of Reflection",
+      "Teacher's Comments"
+     ],
+     "rows": [
+      "Overall class performance and progress",
+      "Major achievement of the term",
+      "Key area to improve",
+      "Recommendations for the next term"
+     ]
+    }
+   ],
+   "prepared_by": null
+  },
+  "lp": {
+   "head": [
+    "THE ROPHINE FIELD GROUP OF SCHOOLS – KAMULU CAMPUS",
+    "LOWER PRIMARY CLASS REFLECTION REPORT",
+    "END OF TERM 3, 2026"
+   ],
+   "general": [
+    "Class / Grade",
+    "Stream",
+    "Class Teacher(s)",
+    "Class Roll"
+   ],
+   "sections": [
+    {
+     "num": 2,
+     "title": "ACADEMIC PROGRESS",
+     "intro": "",
+     "kind": "rows",
+     "cols": [
+      "Area of Reflection",
+      "Teacher's Comments"
+     ],
+     "rows": [
+      "Key academic achievements",
+      "Learning areas / subjects of strength",
+      "Learning areas / subjects requiring improvement",
+      "Progress in literacy and numeracy",
+      "Learners requiring additional support",
+      "Interventions provided and their outcomes",
+      "Assessment results and trends observed"
+     ]
+    },
+    {
+     "num": 3,
+     "title": "COMPETENCIES, VALUES AND CORE SKILLS",
+     "intro": "",
+     "kind": "rows",
+     "cols": [
+      "Area of Reflection",
+      "Teacher's Comments"
+     ],
+     "rows": [
+      "Development of CBC core competencies",
+      "Values demonstrated by learners",
+      "Pertinent and Contemporary Issues (PCIs) addressed",
+      "Creativity, critical thinking and problem-solving",
+      "Communication, collaboration and digital literacy (where applicable)"
+     ]
+    },
+    {
+     "num": 4,
+     "title": "SOCIAL, EMOTIONAL AND BEHAVIOURAL DEVELOPMENT",
+     "intro": "",
+     "kind": "rows",
+     "cols": [
+      "Area of Reflection",
+      "Teacher's Comments"
+     ],
+     "rows": [
+      "Learners' behaviour, discipline and responsibility",
+      "Confidence, independence and self-management",
+      "Social skills, teamwork and peer relationships",
+      "Learner wellbeing and inclusion",
+      "Challenges experienced and strategies used"
+     ]
+    },
+    {
+     "num": 5,
+     "title": "CO-CURRICULAR ACTIVITIES AND SCHOOL PROGRAMMES",
+     "intro": "",
+     "kind": "rows",
+     "cols": [
+      "Area of Reflection",
+      "Teacher's Comments"
+     ],
+     "rows": [
+      "Activities and programmes undertaken",
+      "Learner participation and achievements",
+      "What worked well",
+      "Areas for improvement"
+     ]
+    },
+    {
+     "num": 6,
+     "title": "PARENTAL ENGAGEMENT",
+     "intro": "",
+     "kind": "rows",
+     "cols": [
+      "Area of Reflection",
+      "Teacher's Comments"
+     ],
+     "rows": [
+      "Parent involvement and communication",
+      "Parents' feedback or concerns and how they were addressed",
+      "Recommendations for improved collaboration"
+     ]
+    },
+    {
+     "num": 7,
+     "title": "CHALLENGES EXPERIENCED",
+     "intro": "",
+     "kind": "list",
+     "cols": [
+      "Challenge Identified",
+      "Action Taken / Proposed Solution"
+     ],
+     "rows": [
+      "1",
+      "2",
+      "3"
+     ]
+    },
+    {
+     "num": 8,
+     "title": "REFLECTION ON TEACHING AND LEARNING",
+     "intro": "",
+     "kind": "rows",
+     "cols": [
+      "Area of Reflection",
+      "Teacher's Comments"
+     ],
+     "rows": [
+      "Teaching strategies that worked well",
+      "Strategies that need improvement",
+      "Use of assessment data to guide instruction",
+      "Support, materials or resources required",
+      "Lessons learnt during the term"
+     ]
+    },
+    {
+     "num": 9,
+     "title": "LEARNER TRANSITION AND READINESS",
+     "intro": "For Grade 3, reflect on readiness for Grade 4. For Grades 1 and 2, reflect on readiness for the next grade.",
+     "kind": "rows",
+     "cols": [
+      "Area of Reflection",
+      "Teacher's Comments"
+     ],
+     "rows": [
+      "Skills and competencies acquired",
+      "Areas requiring further reinforcement",
+      "Learners requiring additional transition support",
+      "Records / information to hand over to the next teacher"
+     ]
+    },
+    {
+     "num": 10,
+     "title": "PRIORITIES FOR THE NEXT TERM",
+     "intro": "",
+     "kind": "list",
+     "cols": [
+      "Priority Area",
+      "Planned Action"
+     ],
+     "rows": [
+      "1",
+      "2",
+      "3"
+     ]
+    },
+    {
+     "num": 11,
+     "title": "OVERALL CLASS REFLECTION",
+     "intro": "",
+     "kind": "rows",
+     "cols": [
+      "Area of Reflection",
+      "Teacher's Comments"
+     ],
+     "rows": [
+      "Overall class performance and progress",
+      "Major achievement of the term",
+      "Key area to improve",
+      "Recommendations for the next term"
+     ]
+    }
+   ],
+   "prepared_by": "Prepared by"
+  }
  }
 };
