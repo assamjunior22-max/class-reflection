@@ -29,12 +29,14 @@ function makeStore() {
       },
     };
   }
-  const s = getStore({ name: "reflection2026", consistency: "strong" });
+  // IMPORTANT: Netlify's storage credential expires after a few minutes, so never keep one store handle
+  // for the life of a warm function. Create a fresh handle for every single operation (and every retry).
+  const s = () => getStore({ name: "reflection2026", consistency: "strong" });
   return {
     kind: "netlify-blobs",
-    get: (k) => retry(() => s.get(k, { type: "json" })),
-    setJSON: (k, v) => retry(() => s.setJSON(k, v)),
-    list: (o) => retry(() => s.list(o)),
+    get: (k) => retry(() => s().get(k, { type: "json" })),
+    setJSON: (k, v) => retry(() => s().setJSON(k, v)),
+    list: (o) => retry(() => s().list(o)),
   };
 }
 const store = makeStore();
